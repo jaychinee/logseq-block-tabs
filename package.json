@@ -1,0 +1,23 @@
+{
+  "name": "logseq-block-tabs",
+  "version": "2.3.18",
+  "author": "jay.chinee@outlook.com",
+  "description": "A plugin to render a tabs in block, Sub-block as tab container.",
+  "license": "MIT",
+  "logseq": {
+    "id": "logseq-block-tabs",
+    "icon": "icon.png",
+    "title": "Block Tabs",
+    "main": "dist/index.html"
+  },
+    "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel build --public-url . --no-source-maps index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "@logseq/libs": "^0.0.17"
+  }
+}
